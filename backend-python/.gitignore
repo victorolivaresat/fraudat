@@ -1,0 +1,55 @@
+# Archivos de Python
+*.pyc
+*.pyd
+__pycache__/
+.venv/
+.env
+
+# Distribuiciones y paquetes
+build/
+dist/
+*.egg
+*.egg-info
+.installed.cfg
+sdist/
+*.wheel
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Entornos de desarrollo
+.idea/
+.vscode/
+.mypy_cache/
+
+# Pruebas y cobertura
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+nosetests.xml
+*.py,cover
+
+# Datos sensibles (API Keys, contraseñas, etc.)
+.env
+config.json
+
+# Archivos específicos del sistema operativo
+.cache
+
+# Archivos generados por herramientas
+.ropeproject/
+
+# Dependencias de nodejs si usas frontend
+node_modules/
+
+# Si usas Docker
+.dockerignore
+Dockerfile
+
+# Archivos de configuración de entornos virtuales de Python
+.venv*
