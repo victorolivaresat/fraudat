@@ -1,4 +1,4 @@
-# fraudat backend-python
+# fraudat
 
 ## Uso de la Aplicación con Uvicorn, FastAPI y Pyenv (opcional)
 
@@ -11,6 +11,12 @@
 pyenv install 3.9.7
 pyenv global 3.9.7
 pyenv versions
+```
+
+### Entorno virtual
+* Para crear un entorno virtual en el directorio actual:
+```bash
+python -m venv .venv
 ```
 
 ### Instalación de Dependencias

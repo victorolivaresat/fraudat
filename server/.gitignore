@@ -36,7 +36,6 @@ nosetests.xml
 
 # Datos sensibles (API Keys, contraseñas, etc.)
 .env
-config.json
 
 # Archivos específicos del sistema operativo
 .cache
