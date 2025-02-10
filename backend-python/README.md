@@ -1,6 +1,7 @@
-# fraudat
+# Total Secure:tm: By apuestatotal
+___
 
-## Uso de la Aplicación con Uvicorn, FastAPI y Pyenv (opcional)
+### Uso de la Aplicación con Uvicorn, FastAPI y Pyenv (opcional)
 
 ### Instalación de Pyenv
 * Puedes encontrar más información y el enlace de descarga en: https://github.com/pyenv/pyenv
@@ -18,6 +19,12 @@ pyenv versions
 ```bash
 python -m venv .venv
 ```
+
+### Selección de la Versión de Python en VS Code
+* Para trabajar con la versión de Python del entorno virtual en VS Code:
+    1. Presiona `Ctrl + Shift + P` para abrir la paleta de comandos.
+    2. Escribe y selecciona `Python: Select Interpreter`.
+    3. Navega a la carpeta `Scripts` dentro de `.venv` y selecciona `python.exe`.
 
 ### Instalación de Dependencias
 * Instala las dependencias del proyecto:
@@ -46,3 +53,4 @@ uvicorn src.main:app --reload
 ```bash
 pip freeze > requeriments.txt
 ```
+
