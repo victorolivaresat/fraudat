@@ -5,7 +5,6 @@ import {
   UpdateDateColumn,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { ModulePermission } from '../modules/modulePermission.entity';
 
 @Entity('modules')
 export class Module {
@@ -23,6 +22,4 @@ export class Module {
 
   @UpdateDateColumn({ type: 'timestamptz' })
   updatedAt: Date;
-
-  modulePermissions: ModulePermission[];
 }
